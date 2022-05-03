@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160F1128217C3700634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160F1028217C3700634997 /* main.cpp */; };
+		13160F1B28217C5400634997 /* avg_price.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160F1728217C5400634997 /* avg_price.cpp */; };
+		13160F1C28217C5400634997 /* Sales_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160F1828217C5400634997 /* Sales_data.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		13160F0D28217C3700634997 /* 5_7_avgPrice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5_7_avgPrice; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160F1028217C3700634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160F1728217C5400634997 /* avg_price.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = avg_price.cpp; sourceTree = "<group>"; };
+		13160F1828217C5400634997 /* Sales_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sales_data.cpp; sourceTree = "<group>"; };
+		13160F1928217C5400634997 /* Sales_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sales_data.h; sourceTree = "<group>"; };
+		13160F1A28217C5400634997 /* Version_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version_test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		13160F0F28217C3700634997 /* 5_7_avgPrice */ = {
 			isa = PBXGroup;
 			children = (
-				13160F1028217C3700634997 /* main.cpp */,
+				13160F1728217C5400634997 /* avg_price.cpp */,
+				13160F1828217C5400634997 /* Sales_data.cpp */,
+				13160F1928217C5400634997 /* Sales_data.h */,
+				13160F1A28217C5400634997 /* Version_test.h */,
 			);
 			path = 5_7_avgPrice;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160F1128217C3700634997 /* main.cpp in Sources */,
+				13160F1B28217C5400634997 /* avg_price.cpp in Sources */,
+				13160F1C28217C5400634997 /* Sales_data.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
