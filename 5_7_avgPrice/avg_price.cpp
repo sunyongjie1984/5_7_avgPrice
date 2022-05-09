@@ -6,8 +6,14 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+
+
+
+
+
 int main()
 {
+    
     Sales_data total;           // variable to hold the running sum
     if (read(cin, total))
     {                           // read the first transaction
